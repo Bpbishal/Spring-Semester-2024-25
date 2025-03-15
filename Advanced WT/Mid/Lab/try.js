@@ -5,13 +5,14 @@ const aa=(name="Bp")=>
     `Hello ${name}`
 console.log(aa());
 
-class ab{
-    sayHello()
-    {
-        setTimeout(()=>{
-         console.log(why);
+// class ab{
+//     sayHello()
+//     {
+//         setTimeout(()=>{
+//          console.log('why');
          
-        },1000);
-    }
-}
-const abn=new ab;
+//         },1000);
+//     }
+// }
+// const abn=new ab;
+// abn.sayHello();
