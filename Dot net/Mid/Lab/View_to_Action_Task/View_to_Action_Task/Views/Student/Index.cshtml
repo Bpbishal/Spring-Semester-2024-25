@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Please fill up the Data</h2>
+@*<div>
+    @if (Model != null)
+    {
+        @Model.name
+        @Model.id
+        @Model.dob.ToString("dd-MM-yyyy")
+        @Model.email
+    }
+</div>*@
+<p class="text-danger">
+    @Html.ValidationSummary()
+</p>    
+<form method="post">
+    <input type="text" placeholder="Enter your Name" name="name" /> <br /> <br />
+    <input type="text" placeholder="Enter your ID" name="id" /> <br /> <br />
+    Enter your DOB <br />
+    <input type="date" pmlaceholder="Enter your DOB" name="dob" /> <br /> <br />
+    <input type="email" placeholder="Enter your Email" name="email" /> <br /> <br />
+    <input type="submit" name="add" value="Add" />
+</form>
+
+
