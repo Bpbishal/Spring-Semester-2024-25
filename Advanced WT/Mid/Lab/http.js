@@ -5,5 +5,5 @@ const server=http.createServer((req,res)=>{
 })
 server.listen(2000,()=>{
     console.log("Port 2000 is running");
-    
+
 })
