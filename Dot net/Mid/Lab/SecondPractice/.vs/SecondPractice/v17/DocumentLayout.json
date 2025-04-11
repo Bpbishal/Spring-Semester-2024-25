@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\secondpractice\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\secondpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\secondpractice\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\secondpractice\\views\\home\\mypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\views\\home\\mypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\secondpractice\\secondpractice\\views\\shared\\_newlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\views\\shared\\_newlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\secondpractice\\views\\home\\newpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82AF441D-B117-425C-A400-62C3EE044F43}|SecondPractice\\SecondPractice.csproj|solutionrelative:secondpractice\\views\\home\\newpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "newPage.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\newPage.cshtml",
+              "RelativeDocumentMoniker": "SecondPractice\\Views\\Home\\newPage.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\newPage.cshtml",
+              "RelativeToolTip": "SecondPractice\\Views\\Home\\newPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:58:42.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_newLayout.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Shared\\_newLayout.cshtml",
+              "RelativeDocumentMoniker": "SecondPractice\\Views\\Shared\\_newLayout.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Shared\\_newLayout.cshtml",
+              "RelativeToolTip": "SecondPractice\\Views\\Shared\\_newLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:58:43.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "myPage.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\myPage.cshtml",
+              "RelativeDocumentMoniker": "SecondPractice\\Views\\Home\\myPage.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\myPage.cshtml",
+              "RelativeToolTip": "SecondPractice\\Views\\Home\\myPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:58:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "SecondPractice\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "SecondPractice\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:58:45.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SecondPractice\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SecondPractice\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:58:45.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "SecondPractice\\App_Start\\RouteConfig.cs",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\SecondPractice\\SecondPractice\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "SecondPractice\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:58:45.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
