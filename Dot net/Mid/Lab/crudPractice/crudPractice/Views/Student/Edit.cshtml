@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form method="post">
+          <input type="hidden"name="id" value="@Model.id" /><br />
+        <input type="text" name="Name"value="@Model.Name" class="form-control" placeholder="Name" /><br />
+        <input type="date" name="Dob"value="@Model.Dob.ToString("yyyy-MM-dd")" class="form-control" placeholder="Date Of Birth" /><br />
+        <input type="text" name="Cgpa" value="@Model.Cgpa"class="form-control" placeholder="Cgpa" /><br />
+        <input type="submit" value="Update" class="btn btn-success" />
+
+    </form>
+</body>
+</html>

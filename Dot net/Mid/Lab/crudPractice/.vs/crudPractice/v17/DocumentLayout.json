@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\mid\\lab\\crudpractice\\crudpractice\\ef\\crud.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BB3CF362-6982-47A4-9A37-5AB51EB1223A}|crudPractice\\crudPractice.csproj|solutionrelative:crudpractice\\ef\\crud.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "crudPractice\\Controllers\\StudentController.cs",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "crudPractice\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:05:51.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "crudPractice\\Views\\Student\\Index.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "crudPractice\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T11:30:57.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "crudPractice\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "crudPractice\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T15:36:08.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "crudPractice\\Views\\Student\\Create.cshtml",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "crudPractice\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T10:57:28.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\EF\\Student.cs",
+              "RelativeDocumentMoniker": "crudPractice\\EF\\Student.cs",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\EF\\Student.cs",
+              "RelativeToolTip": "crudPractice\\EF\\Student.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:04:41.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "crud.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\EF\\crud.edmx",
+              "RelativeDocumentMoniker": "crudPractice\\EF\\crud.edmx",
+              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Mid\\Lab\\crudPractice\\crudPractice\\EF\\crud.edmx [Diagram1]",
+              "RelativeToolTip": "crudPractice\\EF\\crud.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-12T09:03:36.314Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

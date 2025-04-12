@@ -1,0 +1,27 @@
+﻿
+@{ 
+    ViewBag.Title = "Create";
+}
+
+@if (TempData["Msg"] != null)
+            {
+                <p class="alert alert-danger">@TempData["Msg"]</p>
+            }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="Name" class="form-control"placeholder="Name" /><br />
+        <input type="date" name="Dob" class="form-control"placeholder="Date Of Birth" /><br />
+        <input type="text" name="Cgpa" class="form-control"placeholder="Cgpa" /><br />
+        <input type="submit" value="Create" class="btn btn-success" />
+
+    </form>
+</body>
+</html>
