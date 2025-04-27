@@ -5,7 +5,11 @@ import { UpdateUserDto } from "./dtos/update-user.dto";
 
 @Controller('users')
 export class UsersController {
-  constructor(private readonly usersService: UsersService) {}
+//  constructor(private readonly usersService: UsersService) {}
+//usersService: UsersService;
+constructor(private usersService: UsersService ){
+  //this.usersService=new UsersService();
+}
 
   @Get()
   getUsers(@Query() query: any) {
@@ -27,7 +31,7 @@ export class UsersController {
     return 'User created';
   }
   @Patch()
-  updateUser(@Body() body:UpdateUserDto){
+  updateUser(@Body() user:UpdateUserDto){
     return 'User updated!'
   }
 
