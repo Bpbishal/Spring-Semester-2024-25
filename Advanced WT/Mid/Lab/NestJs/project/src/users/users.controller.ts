@@ -1,28 +1,34 @@
-import { Controller, Get, Param, Post, Query } from "@nestjs/common";
+import { Body, Controller, Get, Param, Patch, Post, Query } from "@nestjs/common";
 import { UsersService } from "./users.service";
+import { CreateUserDto } from "./dtos/create-user.dto";
+import { UpdateUserDto } from "./dtos/update-user.dto";
 
 @Controller('users')
-export class UsersController{
-    @Get()
-    getUsers(@Query() query:any){
-        const usersSerice=new UsersService();
-        if(query.gender){
-            return usersSerice.getAllUsers().filter(u=>u.gender===query.gender);
-        }
-        return usersSerice.getAllUsers();
-    }
-    @Get(':id')
-    getUserById(@Param('id') id:any){
-       
-        const usersSerice=new UsersService();
-        return usersSerice.getUserById(+id)  ;
+export class UsersController {
+  constructor(private readonly usersService: UsersService) {}
 
+  @Get()
+  getUsers(@Query() query: any) {
+    if (query.gender) {
+      return this.usersService.getAllUsers().filter(u => u.gender === query.gender);
     }
-    @Post()
-    createUsers(){
-        const user={id:3,name:'marry',age:21,gender:'female',isMarried:false};
-        const usersSerice=new UsersService();
-        usersSerice.createUsers(user);
-        return "New user created!"
-    }
+    return this.usersService.getAllUsers();
+  }
+
+  @Get(':id')
+  getUserById(@Param('id') id: any) {
+    return this.usersService.getUserById(+id);
+  }
+
+  @Post()
+  //createUsers(@Body(new ValidationPipe()) user:CreateUserDto){
+  createUsers(@Body() user: CreateUserDto) {
+   // this.usersService.createUsers(user);
+    return 'User created';
+  }
+  @Patch()
+  updateUser(@Body() body:UpdateUserDto){
+    return 'User updated!'
+  }
+
 }
