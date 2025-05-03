@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BankAccount">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="L_id" Type="Int32" />
+    <Property Name="Account_Balance" Type="Double" />
+    <NavigationProperty Name="Librarian" Relationship="Self.FK_BankAccount_Librarian" FromRole="BankAccount" ToRole="Librarian" />
+  </EntityType>
+  <EntityType Name="Borrow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Book_id" Type="Int32" />
+    <Property Name="Borrow_Date" Type="DateTime" Precision="0" />
+    <Property Name="Return_Date" Type="DateTime" Precision="0" />
+    <Property Name="Due_Date" Type="DateTime" Precision="0" />
+    <Property Name="S_id" Type="Int32" />
+    <Property Name="L_id" Type="Int32" />
+    <NavigationProperty Name="Librarian" Relationship="Self.FK_Borrow_Librarian" FromRole="Borrow" ToRole="Librarian" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_Borrow_Student" FromRole="Borrow" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Librarian">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Borrow_Count" Type="Int32" />
+    <NavigationProperty Name="BankAccounts" Relationship="Self.FK_BankAccount_Librarian" FromRole="Librarian" ToRole="BankAccount" />
+    <NavigationProperty Name="Borrows" Relationship="Self.FK_Borrow_Librarian" FromRole="Librarian" ToRole="Borrow" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Borrow_Count" Type="Int32" Nullable="false" />
+    <Property Name="Account_Balance" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Borrows" Relationship="Self.FK_Borrow_Student" FromRole="Student" ToRole="Borrow" />
+  </EntityType>
+  <Association Name="FK_BankAccount_Librarian">
+    <End Role="Librarian" Type="Self.Librarian" Multiplicity="0..1" />
+    <End Role="BankAccount" Type="Self.BankAccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Librarian">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="BankAccount">
+        <PropertyRef Name="L_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrow_Librarian">
+    <End Role="Librarian" Type="Self.Librarian" Multiplicity="0..1" />
+    <End Role="Borrow" Type="Self.Borrow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Librarian">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Borrow">
+        <PropertyRef Name="L_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Borrow_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Borrow" Type="Self.Borrow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Borrow">
+        <PropertyRef Name="S_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BankAccounts" EntityType="Self.BankAccount" />
+    <EntitySet Name="Borrows" EntityType="Self.Borrow" />
+    <EntitySet Name="Librarians" EntityType="Self.Librarian" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <AssociationSet Name="FK_BankAccount_Librarian" Association="Self.FK_BankAccount_Librarian">
+      <End Role="Librarian" EntitySet="Librarians" />
+      <End Role="BankAccount" EntitySet="BankAccounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrow_Librarian" Association="Self.FK_Borrow_Librarian">
+      <End Role="Librarian" EntitySet="Librarians" />
+      <End Role="Borrow" EntitySet="Borrows" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Borrow_Student" Association="Self.FK_Borrow_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Borrow" EntitySet="Borrows" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
