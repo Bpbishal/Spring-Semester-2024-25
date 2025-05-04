@@ -7,6 +7,7 @@ import { PassportModule } from '@nestjs/passport';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { EmployeeModule } from 'src/employee/employee.module';
 import { OtpService } from './otp.service';
+import { BlacklistService } from './blacklist.service';
 
 @Module({
   imports: [
@@ -18,7 +19,7 @@ import { OtpService } from './otp.service';
       signOptions: { expiresIn: '1d' },
     }),
   ],
-  providers: [AuthService, JwtStrategy,OtpService],
+  providers: [AuthService, JwtStrategy,OtpService,BlacklistService],
   controllers: [AuthController],
 })
 export class AuthModule {}

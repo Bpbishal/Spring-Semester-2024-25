@@ -10,17 +10,18 @@ export class OtpService {
     this.otps.set(email, otp);
 
     const transporter = nodemailer.createTransport({
-      host: 'smtp.mailgun.org',
-      port: 587,
-      secure: false,
+      // host: 'smtp.mailgun.org',
+      // port: 587,
+      // secure: false,
+      service:'gmail',
       auth: {
-        user: 'postmaster@sandboxc21a7c0cbe0b471e96c5b19d5db131a6.mailgun.org', 
-        pass: 'b1ab77b2ccfcde6e5bece9a1fadfef1a-67bd41c2-7fddacb9',
+        user: 'luffyxkingofpirates@gmail.com', 
+        pass: 'xucy nbzc pfjr grll',
       },
     });
 
     await transporter.sendMail({
-      from: '"NextPhase App" <postmaster@sandboxc21a7c0cbe0b471e96c5b19d5db131a6.mailgun.org>', 
+      from: '"NextPhase" <luffyxkingofpirates@gmail.com>', 
       to: email,
       subject: 'OTP for Password Change',
       text: `Your OTP is ${otp}`,
