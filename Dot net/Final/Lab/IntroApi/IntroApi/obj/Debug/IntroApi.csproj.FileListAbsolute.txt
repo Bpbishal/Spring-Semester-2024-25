@@ -1,0 +1,2 @@
+F:\AIUB\Spring-Semester-2024-25\Dot net\Final\Lab\IntroApi\IntroApi\obj\Debug\IntroApi.csproj.AssemblyReference.cache
+F:\AIUB\Spring-Semester-2024-25\Dot net\Final\Lab\IntroApi\IntroApi\obj\Debug\IntroApi.csproj.CoreCompileInputs.cache
