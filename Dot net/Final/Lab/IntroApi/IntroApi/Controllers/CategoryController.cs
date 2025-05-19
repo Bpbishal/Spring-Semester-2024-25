@@ -10,7 +10,8 @@ namespace IntroApi.Controllers
 {
     public class CategoryController : ApiController
     {
-        PMS_Sp25_AEntities db = new PMS_Sp25_AEntities();
+        PMS_Sp25_AEntities1 db = new PMS_Sp25_AEntities1();
+
         [HttpGet]
         [Route("api/category/all")]
         public HttpResponseMessage GetAll()
@@ -24,20 +25,19 @@ namespace IntroApi.Controllers
         {
             var data = db.Categories.Find(id);
             return Request.CreateResponse(HttpStatusCode.OK, data);
-
         }
         [HttpPost]
         [Route("api/category/create")]
         public HttpResponseMessage Create(Category c)
         {
-            c.CreatedAt = DateTime.Now;
-            c.CreatedBy = 99;
+            c.CreatedAt = System.DateTime.Now;
+            c.CreatedBy = 999;
             db.Categories.Add(c);
             db.SaveChanges();
-            return Request.CreateResponse(HttpStatusCode.Created, "Category Created");
+            return Request.CreateResponse(HttpStatusCode.Created, "Created Successfully");
         }
         [HttpDelete]
-        [Route("api/category/delete")]
+        [Route("api/category/delete/{id}")]
         public HttpResponseMessage Delete(int id)
         {
             var data = db.Categories.Find(id);
@@ -47,11 +47,12 @@ namespace IntroApi.Controllers
             }
             db.Categories.Remove(data);
             db.SaveChanges();
-            return Request.CreateResponse(HttpStatusCode.OK, "Catetgory deleted");
+            return Request.CreateResponse(HttpStatusCode.OK, "Category Deleted");
+
         }
         [HttpPatch]
-        [Route("api/category/update")]
-        public HttpResponseMessage Update(int id, Category c)
+        [Route("api/category/update/{id}")]
+        public HttpResponseMessage Update(Category c,int id)
         {
             var data = db.Categories.Find(id);
             if (data == null)
@@ -60,7 +61,7 @@ namespace IntroApi.Controllers
             }
             data.Name = c.Name;
             db.SaveChanges();
-            return Request.CreateResponse(HttpStatusCode.OK, "Category Updated");
+            return Request.CreateResponse(HttpStatusCode.OK, "Category updated");
 
         }
     }

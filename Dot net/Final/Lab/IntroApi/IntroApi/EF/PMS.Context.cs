@@ -13,10 +13,10 @@ namespace IntroApi.EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PMS_Sp25_AEntities : DbContext
+    public partial class PMS_Sp25_AEntities1 : DbContext
     {
-        public PMS_Sp25_AEntities()
-            : base("name=PMS_Sp25_AEntities")
+        public PMS_Sp25_AEntities1()
+            : base("name=PMS_Sp25_AEntities1")
         {
         }
     

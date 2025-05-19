@@ -3,27 +3,12 @@
   "WorkspaceRootPath": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B1E48B8-D2DB-4061-AC00-B12327A5FEC3}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1E48B8-D2DB-4061-AC00-B12327A5FEC3}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\ef\\pms.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\ef\\pms.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\ef\\pms.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{8539144B-54B8-4944-A53E-A0E0BBE523CF}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\ef\\pms.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2B1E48B8-D2DB-4061-AC00-B12327A5FEC3}|IntroApi\\IntroApi.csproj|f:\\aiub\\spring-semester-2024-25\\dot net\\final\\lab\\introapi\\introapi\\ef\\pms.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2B1E48B8-D2DB-4061-AC00-B12327A5FEC3}|IntroApi\\IntroApi.csproj|solutionrelative:introapi\\ef\\pms.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,81 +18,31 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Global.asax.cs",
-              "RelativeDocumentMoniker": "IntroApi\\Global.asax.cs",
-              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Global.asax.cs",
-              "RelativeToolTip": "IntroApi\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T13:51:56.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PMS.Context.cs",
-              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\EF\\PMS.Context.cs",
-              "RelativeDocumentMoniker": "IntroApi\\EF\\PMS.Context.cs",
-              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\EF\\PMS.Context.cs",
-              "RelativeToolTip": "IntroApi\\EF\\PMS.Context.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:41:49.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PMS.edmx [Diagram1]",
               "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\EF\\PMS.edmx",
               "RelativeDocumentMoniker": "IntroApi\\EF\\PMS.edmx",
               "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\EF\\PMS.edmx [Diagram1]",
               "RelativeToolTip": "IntroApi\\EF\\PMS.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-16T08:38:05.987Z",
+              "WhenOpened": "2025-05-18T15:40:20.263Z",
               "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "IntroApi\\Controllers\\CategoryController.cs",
               "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "IntroApi\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:32:00.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\readme.txt",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-16T08:30:50.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Web.config",
-              "RelativeDocumentMoniker": "IntroApi\\Web.config",
-              "ToolTip": "F:\\AIUB\\Spring-Semester-2024-25\\Dot net\\Final\\Lab\\IntroApi\\IntroApi\\Web.config",
-              "RelativeToolTip": "IntroApi\\Web.config",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-15T15:29:21.447Z",
+              "WhenOpened": "2025-05-18T15:37:14.803Z",
               "EditorCaption": ""
             }
           ]

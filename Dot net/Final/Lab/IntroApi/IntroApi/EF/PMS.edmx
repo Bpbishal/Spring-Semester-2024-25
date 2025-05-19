@@ -194,7 +194,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
-        <EntityContainer Name="PMS_Sp25_AEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="PMS_Sp25_AEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Categories" EntityType="Self.Category" />
           <EntitySet Name="Customers" EntityType="Self.Customer" />
           <EntitySet Name="Employees" EntityType="Self.Employee" />
@@ -209,7 +209,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PMS_Sp25_AModelStoreContainer" CdmEntityContainer="PMS_Sp25_AEntities">
+        <EntityContainerMapping StorageEntityContainer="PMS_Sp25_AModelStoreContainer" CdmEntityContainer="PMS_Sp25_AEntities1">
           <EntitySetMapping Name="Categories">
             <EntityTypeMapping TypeName="PMS_Sp25_AModel.Category">
               <MappingFragment StoreEntitySet="Categories">
