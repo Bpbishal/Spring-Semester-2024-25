@@ -1,0 +1,96 @@
+     .MODEL SMALL
+.STACK 100H
+
+.DATA
+    MSG DB 'ENTER BINARY VALUE: $' 
+    MSG1 DB 'OUTPUT: $'
+    MSG2 DB 0AH, 0DH, 'REVERSED OUTPUT: $'
+
+.CODE
+MAIN PROC
+    MOV AX, @DATA
+    MOV DS, AX
+
+    MOV AH,9
+    LEA DX,MSG
+    INT 21H
+
+    MOV BX,0    
+    MOV CX,16   
+
+INPUT_:
+    MOV AH,01H  
+    INT 21H
+
+    CMP AL,13   
+    JE OUTPUT_
+
+    AND AL,0FH  
+    SHL BX,1    
+    OR BL,AL    
+    LOOP INPUT_
+
+OUTPUT_:
+    MOV DL,10
+    MOV AH,2
+    INT 21H
+    MOV DL,13
+    INT 21H
+
+    MOV AH,9
+    LEA DX,MSG1
+    INT 21H
+
+    MOV CX,16   
+
+PRINT_OUTPUT:
+    ROL BX,1    
+    JNC ZERO    
+    MOV DL,31H  
+    MOV AH,02H
+    INT 21H
+    JMP NEXT_BIT
+
+ZERO:
+    MOV DL,30H  
+    MOV AH,02H
+    INT 21H
+
+NEXT_BIT:
+    LOOP PRINT_OUTPUT  
+
+    MOV DL,10
+    MOV AH,2
+    INT 21H
+    MOV DL,13
+    INT 21H
+
+    MOV AH,9
+    LEA DX,MSG2
+    INT 21H
+
+    MOV CX,16   
+
+REVERSE_OUTPUT:
+    ROR BX,1    
+    JNC ZERO_REVERSE   
+    MOV DL,31H  
+    MOV AH,02H
+    INT 21H
+    JMP NEXT_REVERSE
+
+ZERO_REVERSE:
+    MOV DL,30H  
+    MOV AH,02H
+    INT 21H
+
+NEXT_REVERSE:
+    LOOP REVERSE_OUTPUT  
+
+    
+
+    MOV AH,4CH  
+    INT 21H
+
+MAIN ENDP
+END MAIN
